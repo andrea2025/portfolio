@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E6E6E6;
+    opacity: 12;
+    
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.container {
+    height: 500px;
+    /* width: 100%; */
+    
+}
+.top_header {
+    min-height: 700px;
+    background-image: url("images/Group 5.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+}
+
+.top_item {
+    display: flex;
+    margin-left:7em;
+    padding-top: 1em;
+}
+
+.navigation {
+    margin-left: 40em;
+}
+.list_roll {
+     display: flex;
+     list-style: none;
+
+}
+.list_item {
+    padding: 0 2em;
+    color: #ffffff;
+}
+.list_item:hover {
+    color: salmon;
+}
+.icon_bar {
+    color: #FF9164;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+#pass_through {
+    width: 2em;
+    margin-left: 0.1em;
+}
+.top_left {
+    margin-left:7em;
+    padding-right: 8em;
+    color: #ffffff;
+    margin-top: 10em;
+}
+#top_text {
+    border: 2px solid #FF9164;
+    padding: 10px 70px;
+    color: #FF9164;
+    font-weight: bold;
+    margin-left: 7em;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+.top_left > h5 {
+    margin-bottom: 3em;
+    font-weight: normal;
+}
+.rounded_image > img {
+    width: 250px;
+    height: 250px;
+    position:absolute;
+    left: 33em;
+    top: 30em;
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+}
+.middle_section {
+    display: flex;
+    margin-top: 5em;
+    padding-left: 5em;
+    font-size: 18px;
+}
+.introduction_section {
+    padding-top: 3em;
+}
+.link_up {
+    background-color: #ffffff;
+    border: 2px solid white;
+    padding: 10px 60px;
+    border-radius: 20px;
+    color: coral;
+    
+}
+.info {
+    margin-bottom: 2.5em;
+    word-spacing: 3px;
+}
+.image_wrapper > img {
+    margin-top: 2em;
+    height: 400px;
+    margin-left: 25em;
+    width: 75%;
+}
+.work_flow {
+    background-image: url("images/Group 5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: skewY(-4deg);
+    margin-top: 8em;
+    color: black;
+}
+.work_flow_header {
+  text-align: center;
+    
+}
+.work_flow_details {
+    display: flex;
+    justify-content: center;
+    margin-top:70px;
+    font-size: 18px;
+}
+.work_flow_items {
+    transform: skewY(4deg);
+    padding: 40px;
+}
+.cross {
+    width: 30px;
+}
+.work_text_1 {
+    margin-right: 10em;
+} 
+.footer {
+   max-height: 200px;
+    margin-top: 20em;
+}
+.icon_bars {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin: 0 5em;
+}
+.fa {
+    padding-right: 1.3em;
+}
