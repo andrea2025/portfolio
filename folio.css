@@ -21,7 +21,7 @@ a {
 }
 .top_header {
     min-height: 700px;
-    background-image: url("/images/bg-image.png");
+    background-image: url("images/bg-image.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -116,7 +116,7 @@ a {
     width: 75%;
 }
 .work_flow {
-    background-image: url("/images/bg-image.png");
+    background-image: url("images/bg-image.png");
     background-size: cover;
     background-repeat: no-repeat;
     transform: skewY(-4deg);
