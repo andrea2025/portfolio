@@ -50,10 +50,13 @@ a {
     color: salmon;
 }
 .icon_bar {
-    color: #FF9164;
+    color: #ffffff;
     font-size: 25px;
     margin-top: 10px;
     margin-left: 120px;
+}
+.active {
+    color: #FF9164;
 }
 #pass_through {
     width: 2em;
@@ -121,10 +124,12 @@ a {
     background-repeat: no-repeat;
     transform: skewY(-4deg);
     margin-top: 8em;
-    color: black;
+    color: #ffffff;
+    
 }
 .work_flow_header {
   text-align: center;
+ 
     
 }
 .work_flow_details {
@@ -132,6 +137,7 @@ a {
     justify-content: center;
     margin-top:70px;
     font-size: 18px;
+   
 }
 .work_flow_items {
     transform: skewY(4deg);
